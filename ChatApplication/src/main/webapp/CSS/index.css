@@ -1,0 +1,157 @@
+/***************************************************************
+*************************  CSS file of index *******************
+***************************************************************/
+#connection
+{
+	background-color: black;
+}
+
+/* Flags attributes */
+#logFlags
+{
+	padding-left: 1240px;
+}
+
+body
+{
+	background-color: #2097F2;
+}
+
+/*Main conteiner for login form and registration form*/
+#mainConteiner
+{
+	width: 800px;
+	height: 600px;
+	margin-top:50px;
+	margin-left: 450px;
+}
+
+/*Switching menu upside*/
+#menuconteiner
+{
+	background-color: #ffffff;
+	border: solid 1px black;
+	border-radius: 5px;
+	width: 425px;
+}
+
+/**************************************************************
+**                    Registration form                      **
+**************************************************************/
+
+
+/*Attributes of registration form*/
+#registrationForm
+{
+	background-color: #ffffff;
+	border:solid 1px;
+	border-radius: 15px;
+	padding-top: 25px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	width: 475px;
+	height: 350px;
+	margin-left: 250px;
+	position: absolute;
+	opacity: 0.2;
+}
+
+/*setting attributes for inputfields*/
+#firstNameReg,#lastNameReg,#userNameReg,#passwordReg,#confirmPassReg
+#emailReg
+{
+	width: 250px;
+	margin-left: -3px;
+	font-size: 14px;
+}
+
+/*setting attributes for wholebutton*/
+#wholeBtn
+{
+	padding-left: 120px;
+	padding-top: 260px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#firstName
+{
+	padding-top: 25px;
+}
+
+.label
+{
+	padding-left: 20px;
+}
+
+/**************************************************************
+**                        Login form                         **
+**************************************************************/
+
+#loggingForm
+{
+	background-color: #ffffff;
+	border:outset darkgrey 3px;
+	box-shadow: 10px 10px 32px 5px;
+	border-radius: 15px;
+	width: 425px;
+	height: 260px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#userIcon
+{
+	width: 30px;
+	margin-left: 112px;
+	margin-top: 47px;
+	border-right: solid grey 1px;
+	position: absolute;
+	opacity: 0.1;
+	z-index: 1;
+}
+
+#userNameLog,#passLogField
+{
+	width: 235px;
+	font-size: 14px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#lockPass
+{
+	width: 32px;
+	margin-left: 112px;
+	margin-top: 90px;
+	border-right:solid grey 1px;
+	position: absolute;
+	opacity: 0.1;
+	z-index: 1;
+}
+
+#submitBtn
+{
+	margin-left: 165px;
+	margin-top: 105px;
+	position: absolute;
+}
+
+.regLink
+{
+	padding-left: 165px;
+	padding-top: 140px;
+	position: absolute;
+}
+
+#inputFields
+{
+	padding-top: 40px;
+	position: relative;
+}
+
+#reg
+{
+	cursor: pointer;
+	text-decoration-color: blue;
+}

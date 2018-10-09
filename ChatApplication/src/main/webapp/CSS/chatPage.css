@@ -1,0 +1,133 @@
+/***************************************************************
+*************************  CSS file of chat ********************
+***************************************************************/
+
+#chatFlags
+{
+	padding-left: 1240px;
+}
+
+body
+{
+	background-color: #2097F2;
+}
+
+#mainChatConteiner
+{
+	width: 800px;
+	height: 550px;
+	background-color: #ffffff;
+	margin-top: 25px;
+	margin-left: 320px;
+	border: outset 3px lightgrey;
+	opacity: 1;
+	box-shadow: 2px 2px 15px 5px black;
+	border-radius: 15px;
+}
+
+#chatWindow
+{
+	width: 720px;
+	height: 410px;
+	background-color: #eff9f5;
+	margin-left: 35px;
+	margin-top: 30px;
+	border: groove lightgrey 3px;
+	border-radius: 15px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+.chat
+{
+	width: 30%;
+	height: 16%;
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: outset 3px lightgrey;
+	border-right: outset 3px lightgrey;
+	margin-left: 25px;
+}
+
+.self
+{
+	background-color: #1ddced;
+	position: relative;
+	margin-left: 490px;
+	border-radius: 5px;
+}
+
+.participants
+{
+	background-color: #1adda4;
+	position: relative;
+	margin-left: 15px;
+	border-radius: 5px;
+}
+
+.self .timeStampSelf
+{
+	position: absolute;
+	margin-left: 10px;
+}
+
+.self .selfId
+{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.self .selfMessage
+{
+	position: relative;
+	margin-top: 30px;
+	margin-left: -17px;
+}
+
+.participants .timeStampParticipant
+{
+	position: absolute;
+	margin-left: 10px;
+}
+
+.participants .participantId
+{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.participants .chatMessageParticipant
+{
+	position: relative;
+	margin-top: 30px;
+	margin-left: -30px;
+}
+
+#inputElements
+{
+	padding-left: 35px;
+	padding-top: 20px;
+	width: 770px;
+}
+
+#textField
+{
+	width: 200px;
+	border: outset 3px lightgrey;
+	box-shadow: none;
+	position: absolute;
+}
+
+#sendIcon
+{
+	width: 40px;
+	height: 40px;
+	margin-left: 680px;
+	padding-top: 2px;
+	border: solid lightgrey 1px;
+	border-radius: 5px;
+	position: relative;
+}
