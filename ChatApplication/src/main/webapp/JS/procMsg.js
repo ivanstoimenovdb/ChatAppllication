@@ -24,11 +24,11 @@ var pusher = new Pusher('f9ee0bbcbb88171b126d',{cluster:'eu',encrypted: true});
 var channel = pusher.subscribe('FunChatApplication');
 channel.bind('sendMsg',function(data){
 
-	var determination = (data.uniqueID == uniqueId) ?  "participants" : "self";
-	var identification = (data.uniqueID == uniqueId) ? "Participant" : "Me";
-	var directionTimeStamp = (data.uniqueID == uniqueId) ? "timeStampParticipant" : "timeStampSelf";
-	var directionId = (data.uniqueID==uniqueId) ? "participantId" :  "selfId" ;
-	var directionMessage = (data.uniqueID == uniqueId) ? "chatMessageParticipant" : "selfMessage" ;
+	var determination = (data.uniqueId == uniqueId) ?  "self" : "participants";
+	var identification = (data.uniqueId == uniqueId) ? "Me" : "Participant";
+	var directionTimeStamp = (data.uniqueId == uniqueId) ? "timeStampSelf" : "timeStampParticipant";
+	var directionId = (data.uniqueId==uniqueId) ? "selfId" : "participantId" ;
+	var directionMessage = (data.uniqueId == uniqueId) ? "selfMessage" : "chatMessageParticipant";
 
 	$('#chatWindow').append(
 		`<div class = "chat ${determination}">

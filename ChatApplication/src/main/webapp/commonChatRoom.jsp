@@ -25,7 +25,7 @@
 	</div>
 	
 	<div class= "ui conteiner" id = "mainChatConteiner">
-		<div class = "ui conteiner" id = "chatWindow">
+		<div class = "ui conteiner-fluid" id = "chatWindow">
 		<!--  
 			<div class = "chat self">
 				<p class = "timeStampSelf">Date</p>

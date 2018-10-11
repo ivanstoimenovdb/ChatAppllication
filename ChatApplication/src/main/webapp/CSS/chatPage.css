@@ -35,7 +35,8 @@ body
 	border: groove lightgrey 3px;
 	border-radius: 15px;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column;
+	overflow: scroll;
 	align-items: flex-start;
 }
 
@@ -62,7 +63,7 @@ body
 {
 	background-color: #1adda4;
 	position: relative;
-	margin-left: 15px;
+	margin-left: 0px;
 	border-radius: 5px;
 }
 
@@ -103,7 +104,7 @@ body
 {
 	position: relative;
 	margin-top: 30px;
-	margin-left: -30px;
+	margin-left: -63px;
 }
 
 #inputElements
