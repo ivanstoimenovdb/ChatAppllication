@@ -29,13 +29,7 @@
 </head>
 <body>
 <a href = "commonChatRoom.jsp">to common room</a>
-			<!--  Flags -->
-	<div class = "ui item" id = "logFlags">
-		<i class = "bg flag" id = "bgIndexFlag"></i>
-		<i class = "us flag" id = "usIndexFlag"></i>
-		<i class = "it flag" id = "itIndexFlag"></i>
-		<i class = "es flag" id = "esIndexFlag"></i>
-	</div>
+		
 					<!-- Main conteiner -->
 	<div class = "ui conteiner" id = "mainConteiner">
 		

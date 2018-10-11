@@ -17,12 +17,6 @@
 <title>Chat window</title>
 </head>
 <body> 
-	<div class = "ui item" id = "chatFlags">
-		<i class = "bg flag" id = "bgChatCommon"></i>
-		<i class = "us flag" id = "usChatCommon"></i>
-		<i class = "it flag" id = "itChatCommon"></i>
-		<i class = "es flag" id = "esChatCommon"></i>
-	</div>
 	
 	<div class= "ui conteiner" id = "mainChatConteiner">
 		<div class = "ui conteiner-fluid" id = "chatWindow">
