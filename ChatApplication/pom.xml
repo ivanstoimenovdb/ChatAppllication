@@ -44,7 +44,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
     <!-- Struts 2 -->
 	<dependency>
 		<groupId>org.apache.struts</groupId>
@@ -66,6 +65,26 @@
        <groupId>org.apache.struts</groupId>
        <artifactId>struts2-json-plugin</artifactId>
    </dependency>
+   
+  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.1.42</version>
+	</dependency>
+   
+   <dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>javax.persistence-api</artifactId>
+    <version>2.2</version>
+</dependency>
+
+	<dependency>
+  		<groupId>org.jboss.as.plugins</groupId>
+  		<artifactId>jboss-as-maven-plugin</artifactId>
+  		<version>7.9.Final</version>
+  		<type>maven-plugin</type>
+	</dependency>
 	
   </dependencies>
   

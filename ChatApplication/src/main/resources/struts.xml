@@ -11,17 +11,32 @@
         <action name="index">
             <result>/index.jsp</result>
         </action>
+        
+        <action name="registration" class ="Controllers.RegistrationController" method = "execute">
+        	<result name="success">/successRegistration.jsp</result>
+        	<result name="error">/errorRegistration.jsp</result>
+        </action>
+        
+        <action name="login" class ="Controllers.LoginController" method = "execute">
+        	<result name="success">/commonChatRoom.jsp</result>
+        	<result name="error">/error.jsp</result>
+        </action>
+        
+        
+        
+        
 
     </package>
     
   <package name="default" namespace="/" extends="json-default">
          <default-action-ref name="index"/> 
-
             <action name="index">
                 <result>/index.jsp</result>
             </action>
             
-          <action name = "sendMsg" class = "org.apache.struts2.ChatApp.action.ProcessingMessage" method = "execute" >
+            
+            
+          <action name = "sendMsg" class = "Controllers.ProcessingMessage" method = "execute" >
       		<result type = "json"></result>
       	</action>
    </package>
